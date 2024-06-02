@@ -5,7 +5,8 @@ title: 'ZenNest Chatbot'
 date: 2024-06-01 21:42:00
 categories: development design
 tags: Python LLM OpenAI
-featured_image: '/img/posts/04_phantom-jekyll-1130x864-2x.png'
+#Image size 1130x864
+featured_image: '\img\posts\01_ZenNestPlaceHolder-1130x864-2x.png'
 project_link: 'https://github.com/JasonPittsBusiness'
 button_icon: 'comments'
 button_text: 'Visit Project'
