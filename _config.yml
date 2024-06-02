@@ -21,6 +21,8 @@ url: "https://jasonpittsbusiness.github.io/" # the base hostname & protocol for 
 twitter_username: ''
 github_username: 'JasonPittsBusiness'
 medium_username: ''
+section_title: 'Spotlight Creations'
+section_subtitle: 'Discover my latest projects, which reflect my pursuit of excellence and journey towards mastering various skills.'
 
 # Build settings
 markdown: kramdown

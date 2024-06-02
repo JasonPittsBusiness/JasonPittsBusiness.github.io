@@ -3,7 +3,9 @@ layout: inner
 title: About
 permalink: /about/
 ---
-## Markdown
+## About 
+
+![Me](img\posts\01_ZenNestPlaceHolder-1130x864-2x.png)
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
