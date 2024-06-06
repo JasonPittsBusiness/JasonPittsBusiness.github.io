@@ -118,7 +118,7 @@ Full validation loss<br>
 
 <br>
 
-As a bonus, more than common pitfalls, industry 'Zen Jargon' were trained, as well as a myriad of situations and longer conversations. Our second round of training starts off with an incredible looking .5983 training loss indicating that our model is trending towards reasonably well performance. The full validation loss of .8023 is a bit higher but this can be expected as the LLM learns more and begins to cover a wide variety of subjects. You’ll also notice that we are missing validation loss, which is due to the number of epochs compared to the data amount. We have increased the model's performance and knowledge base at the cost of possible outlier answers. So how is Sarah doing?
+As a bonus, more than common pitfalls, industry 'Zen Jargon' were trained, as well as a myriad of situations and longer conversations. Our second round of training starts off with an incredible looking .5983 training loss indicating that our model is trending towards reasonably well performance. The full validation loss of .8023 is a bit higher but this can be expected as the LLM learns more and begins to cover a wide variety of subjects. You’ll also notice that we are missing validation loss, which is due to the number of epochs compared to the data amount. Given a greater spread of epochs (3 were used in this training pass) our validation data will be more stable. We have increased the model's performance and knowledge base at the cost of possible outlier answers. So how is Sarah doing?
 
 <br>
 
