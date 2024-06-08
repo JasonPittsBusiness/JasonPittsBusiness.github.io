@@ -19,7 +19,7 @@ Welcome to the ZenNest Chatbot assistant! This project leverages OpenAI's API to
 
 <br>
 
-![ZenNest Mockup](\img\posts\01_ZenNestMockUp-1130x864-2x.png)
+![ZenNest Mockup](\img\posts\02_ZenNestMockUp-1130x864-2x.png)
 *I'm no artist, but I enjoyed making this mockup*
 
 <br>
