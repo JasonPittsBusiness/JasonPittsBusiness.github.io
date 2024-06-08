@@ -33,7 +33,7 @@ $secondary: #FF7B7B;
 }
 
 body {
-  background-color: #e9edf0;
+  background-color: #2C3E50;
   @extend %opensans;
   -webkit-font-smoothing: antialiased;
 }
@@ -72,11 +72,11 @@ button.btn, input.btn {
   color: #2E4453;
   font-weight: 600;
   &:hover, &.btn-default:hover {
-    background-color: white;
+    background-color: #DAA520;
     border: solid 1px #b0c5d2;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
-    box-shadow: 0 1px 0 #b0c5d2;
+    box-shadow: 0 1px 0 #FF7F50;
   }
   i {
     padding-right: 0.5em;
@@ -88,7 +88,7 @@ button.btn, input.btn {
 }
 
 .main {
-  background-color: white;
+  background-color: #FFDAB9;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
   &.container {
@@ -228,7 +228,7 @@ button.btn, input.btn {
     top: 1.35em;
     width: 3em;
     height: 3px;
-    background-color: #ECEFF1;
+    background-color: #008080;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -279,7 +279,7 @@ button.btn, input.btn {
         left: 0;
         width: 3em;
         height: 3px;
-        background-color: #ECEFF1;
+        background-color: #008080;
       }
     }
     .excerpt {
@@ -297,8 +297,8 @@ button.btn, input.btn {
     .tags, .categories {
       margin: 2em 0;
       span {
-        color: #9eb1bd;
-        background-color: #ECEFF1;
+        color: #000;
+        background-color: #DAA520;
         padding: 0.5em 1.5em;
         display: inline-block;
         margin-bottom: 0.5em;
