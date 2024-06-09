@@ -16,7 +16,7 @@
 title: "Hi there, I'm Jason Pitts!"
 email: 'jasonpittsjr.business@gmail.com'
 description: "I'm a software developer and system administrator with a passion for creating efficient and innovative solutions."
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://jasonpittsbusiness.github.io/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: 'JasonPittsBusiness'
 github_username: 'JasonPittsBusiness'
