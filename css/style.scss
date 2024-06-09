@@ -64,7 +64,7 @@ img {
   width: 100%;
 }
 
-button.btn, input.btn {
+.btn, button.btn, input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
   border: solid 1px #d5e0e7;
@@ -99,7 +99,7 @@ button.btn, input.btn {
 .section-jump {
   position: relative;
   top: 0;
-  color: #C8D7E1;
+  color: #000;
   margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
@@ -263,6 +263,7 @@ button.btn, input.btn {
       display: none;
     }
   }
+
   .content {
     margin-top: 5em;
     margin-left: 5em;
@@ -311,11 +312,21 @@ button.btn, input.btn {
   }
 }
 
+
+
 // vertically center content of post rows
 .post-row {
     align-items: center;
     display: flex;
 }
+
+.featured-gif {
+  max-width: 400px; // Adjust the max-width as needed
+  height: auto;
+  margin: 0 auto; // Centers the image horizontally
+  display: block; // Ensures proper alignment
+}
+
 
 /*--------------------------------------------------------------
 	4.0 Footer

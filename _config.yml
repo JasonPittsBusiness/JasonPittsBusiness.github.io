@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jasonpittsbusiness.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: 'JasonPittsBusiness'
 github_username: 'JasonPittsBusiness'
-medium_username: ''
+
 section_title: 'Spotlight Creations'
 section_subtitle: 'Discover my latest projects, which reflect my pursuit of excellence and journey towards mastering various skills.'
 
@@ -29,12 +29,13 @@ markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-v2
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
-paginate: 10
-paginate_path: "/page:num/"
+#paginate: 10
+#paginate_path: "/page:num/"
 
 pagination:
   
@@ -62,10 +63,10 @@ pagination:
   limit: 0
   
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
+  sort_field: 'postnum'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
+  sort_reverse: false
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   category: 'posts'
@@ -90,6 +91,9 @@ pagination:
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: 'index'
+
+  auto:
+    enabled: true
 
 ############################################################
 
