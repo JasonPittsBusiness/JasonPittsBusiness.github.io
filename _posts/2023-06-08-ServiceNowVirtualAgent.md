@@ -2,9 +2,8 @@
 layout: inner
 position: left
 title: 'ServiceNow Virtual Agent'
-date: 2024-06-08T17:51:00
+date: 2023-06-08 17:51:00
 categories: development design
-postnum: 2
 tags: Chatbot LLM OpenAI
 featured_gif:   '\Pages\ServiceNow Virtual Agent\SNOWDemo1.gif'
 project_link: '\ServiceNow Virtual Agent'
