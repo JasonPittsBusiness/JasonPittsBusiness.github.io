@@ -8,7 +8,6 @@ ZenNest_project: 'ZenNestChatbot'
 <h4 style="text-align: center;">By Jason Pitts</h4>
 <br>
 ## Overview
-<br>
 <div>
 {% if page.ZenNest_project != '' %}
     <a href="https://github.com/{{ site.github_username }}/{{ page.ZenNest_project }}" class="btn btn-default btn-lg"><i class="fa fa-square-github fa-lg"></i> GitHub</a>
