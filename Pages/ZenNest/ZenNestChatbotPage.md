@@ -126,6 +126,14 @@ As a bonus, more than common pitfalls, industry 'Zen Jargon' were trained, as we
 
 <br>
 
+## Weights & Biases
+
+<br>
+
+![wandbPreview](\Pages\ZenNest\wandb-1130x2.png)
+*Comparing the training jobs in the WandB dashboard*
+
+<br>
 ## Conclusion and Considerations
 
 <br>
