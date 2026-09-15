@@ -8,9 +8,9 @@ SyntheticData_project: 'SyntheticDataGenerator'
 <h4 style="text-align: center;">By Jason Pitts</h4>
 
 
-# Overview
+## Overview
 <div>
-{% if page.ZenNest_project != '' %}
+{% if page.SyntheticData_project != '' %}
     <a href="https://github.com/{{ site.github_username }}/{{ page.SyntheticData_project }}" class="btn btn-default btn-lg"><i class="fa fa-square-github fa-lg"></i> GitHub</a>
 {% endif %}
 </div>
@@ -49,7 +49,7 @@ The chosen dataset was used because of the relevant small number of entries (400
 
 Only one column stands out here as problematic which is the User ID. The User ID serves no purpose as a key identifier in this case so we'll remove it before processing the data. Once that has been removed we are ready to use the [CTGANSynthesizer](https://docs.sdv.dev/sdv/single-table-data/modeling/synthesizers/ctgansynthesizer). This model was chosen because it is a good entry level model to synthesizing data due to quick results and feedback allowing constant iteration on your data for correlation.
 
-```
+```python
 def synthesize_data(metadata, data, filepath):
     synthesizer = CTGANSynthesizer(metadata, enforce_rounding=False, epochs=200, verbose=True, cuda=True)
     synthesizer.fit(data)
@@ -89,7 +89,7 @@ Moving onto the synthesis of the data you'll need to review the dataloss from th
 
 <br>
 
-# Validity and quality
+## Validity and quality
 <br>
 Review the distributional comparisons of validity and struct as they must come back at 100% or your synthetic data is not being created properly. This could be due to formatting issues in the metadata or the original dataset.
 <br>
@@ -103,5 +103,5 @@ Finally you will be prompted for a correlation matrix which will help you compar
 ![CorrelationMatrix](\Pages\SyntheticDataGenerator\SyntheticCorrelationMatrix-1130x864-2x.png)
 *Further iterations required, try adjusting the epochs!*
 
-# Conclusion
+## Conclusion
 Synthesizing data has a low barrier to entry but a high ceiling for excellence. In order to use your synthesis data effectively you will need to continue to iterate on your model until it is learning at an appropriate rate to no longer be able to discriminate between real and synth data. Outliers in small datasets will cause issues and may be a consideration of exclusion. You're now equipped to start synthesizing, what are you waiting for?

@@ -42,8 +42,7 @@ The first place to start is training the model based on that idea so I started g
 
 <br>
 
-```
-json
+```json
 {
     "messages": [
         {
