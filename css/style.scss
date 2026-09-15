@@ -111,17 +111,18 @@ $secondary: #FF7B7B;
   background-color: var(--color-btn-bg);
   color: var(--color-btn-text);
   cursor: pointer;
-  .fa-sun-o { display: none; }
-  .fa-moon-o { display: inline-block; }
+  svg { width: 18px; height: 18px; }
+  .icon-sun { display: none; }
+  .icon-moon { display: inline-block; }
 }
 :root[data-theme="dark"] .theme-toggle {
-  .fa-sun-o { display: inline-block; }
-  .fa-moon-o { display: none; }
+  .icon-sun { display: inline-block; }
+  .icon-moon { display: none; }
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .theme-toggle {
-    .fa-sun-o { display: inline-block; }
-    .fa-moon-o { display: none; }
+    .icon-sun { display: inline-block; }
+    .icon-moon { display: none; }
   }
 }
 
