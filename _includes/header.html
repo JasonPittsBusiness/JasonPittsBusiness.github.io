@@ -1,5 +1,15 @@
 <!doctype html>
 <head>
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        if (stored === 'light' || stored === 'dark') {
+          document.documentElement.setAttribute('data-theme', stored);
+        }
+      } catch (e) {}
+    })();
+  </script>
   <script src="https://kit.fontawesome.com/ee505e818a.js" crossorigin="anonymous"></script>
   <!-- Meta -->
   <meta charset="utf-8">
@@ -50,6 +60,12 @@
                   <a href="{{ item.url }}">{{ item.text }}</a>
                 </li>
               {% endfor %}
+              <li>
+                <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                  <i class="fa fa-moon-o" aria-hidden="true"></i>
+                  <i class="fa fa-sun-o" aria-hidden="true"></i>
+                </button>
+              </li>
             </ul>
           </div>
       </div>
